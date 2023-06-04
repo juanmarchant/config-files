@@ -1,7 +1,5 @@
 set number
 set relativenumber
-set splitbelow
-set splitright
 set shell=powershell
 set shellcmdflag=-command
 set shellquote=\"
@@ -17,7 +15,7 @@ Plug 'ryanoasis/vim-devicons' "Dev Icons
 Plug 'preservim/nerdtree' "Search Map
 Plug 'neoclide/coc.nvim' "Auto Complete... coc-python installed 
 Plug 'lukas-reineke/indent-blankline.nvim'
-Plug 'chrisbra/vim-commentary'
+Plug 'chrisbra/vim-commentary' "gcc commentary 
 
 call plug#end()
 
